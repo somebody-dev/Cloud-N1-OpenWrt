@@ -12,4 +12,3 @@ mv -f package-temp/luci-app-amlogic/luci-app-amlogic package/lean/
 rm -rf package-temp
 
 sed -i 's/192.168.1.1/192.168.2.254/g' package/base-files/files/bin/config_generate
-
